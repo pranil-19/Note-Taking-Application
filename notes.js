@@ -6,7 +6,7 @@
 
    const duplicateNote = notes.find((note) => note.title === title)
 
-  //  debugger
+  //  debugger (to run, command is node inspect app.js....)
 
    if(!duplicateNote){
     notes.push({
